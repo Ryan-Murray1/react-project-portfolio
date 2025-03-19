@@ -1,0 +1,28 @@
+.Home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 3rem;
+    background: #121212;
+    color: #E0E0E0;
+}
+
+button {
+    background-color: #00C8FF;
+    color: #121212;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 200, 255, 0.3);
+}
+
+button:hover {
+    background-color: #FF6B6B;
+    color: white;
+    transform: translateY(-3px);
+}

@@ -1,0 +1,26 @@
+.card {
+    background-color: #1E1E1E;
+    color: #E0E0E0;
+    padding: 20px;
+    margin: 10px 0;
+    border-radius: 10px; /* Slightly round the corners */
+    box-shadow: 0 4px 15px rgba(0, 200, 255, 0.2); /* More subtle shadow */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px); /* Lift effect on hover */
+    box-shadow: 0 8px 20px rgba(0, 200, 255, 0.4); /* Increase shadow on hover */
+}
+
+.card h3 {
+    margin-top: 0;
+    font-size: 1.5rem; /* Larger heading size */
+}
+
+.card p {
+    font-size: 15px;
+    line-height: 1.6; /* Improved readability */
+}
+
+
