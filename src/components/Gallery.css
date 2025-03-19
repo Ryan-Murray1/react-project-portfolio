@@ -1,4 +1,3 @@
-/* Gallery Container */
 .gallery-container {
   text-align: center;
   padding: 3rem 2rem;
@@ -8,7 +7,6 @@
   box-shadow: 0 4px 15px rgba(0, 200, 255, 0.2);
 }
 
-/* Gallery Grid */
 .gallery-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -26,7 +24,6 @@
   text-transform: uppercase;
 }
 
-/* Gallery Card */
 .gallery-card {
   background: #1E1E1E;
   border-radius: 12px;
@@ -41,7 +38,6 @@
   box-shadow: 0 8px 16px rgba(0, 200, 255, 0.4);
 }
 
-/* Gallery Image */
 .gallery-image {
   width: 100%;
   height: 300px;
@@ -49,7 +45,6 @@
   object-fit: cover;
 }
 
-/* Gallery Caption */
 .gallery-caption {
   color: #E0E0E0;
   margin-top: 10px;
@@ -58,13 +53,11 @@
   letter-spacing: 0.5px;
 }
 
-/* Submitted Messages Section */
 .gallery-submitted-messages {
   margin-top: 3rem;
   text-align: center;
 }
 
-/* Style the form input and button */
 .gallery-form {
   margin-top: 2rem;
   display: flex;
@@ -79,10 +72,10 @@
 }
 
 .gallery-form input[type="text"] {
-  min-width: 250px;  /* Min width */
-  max-width: 100%;   /* Max width is 100% of the container */
-  flex-grow: 1;      /* Allow it to grow to fill available space */
-  margin: 0 auto;    /* Center the input */
+  min-width: 250px;  
+  max-width: 100%;  
+  flex-grow: 1;      
+  margin: 0 auto;   
   padding: 0.9rem;
   border: 2px solid #00C8FF;
   border-radius: 12px;
@@ -98,7 +91,6 @@
   border-color: #00A3E0;
 }
 
-/* Style the submit button */
 .gallery-form button {
   padding: 0.8rem 1.5rem;
   background: #00C8FF;
@@ -117,7 +109,6 @@
   font-weight: 700;
 }
 
-/* Submitted Messages Styling */
 .gallery-container h3 {
   margin-top: 2rem;
   font-size: 1.8rem;
@@ -125,7 +116,6 @@
   font-weight: 700;
 }
 
-/* Message List */
 .gallery-submitted-messages ul {
   list-style: none;
   padding: 0;
